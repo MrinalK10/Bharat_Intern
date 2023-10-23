@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto&family=Young+Serif&display=swap');
+        
+  * {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+    
+}
+
+body {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20vh;
+    background-color: #00C9A7;
+    
+    
+    
+}
+
+.logo{
+    background-image: url(/img/logo.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.logo h1{
+    position: absolute;
+    left: 110px;
+    top: 15px;
+    color: rgb(69, 112, 241);
+    font-family: 'Young Serif', serif;
+
+}
+
+.container {
+    width: 350px;
+    border: 2px solid #4D8076;
+    background-color: #C4FCEF;
+    border-radius: 10px;
+    padding: 20px 10px;
+    box-shadow: 0px 0px 10px rgba(50, 49, 49, .6);
+    height: auto;
+    
+}
+
+.container:hover{
+    border: 2px solid black;
+}
+
+.head {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.boxcontainer {
+    display: flex;
+}
+
+p {
+    font-size: 1rem;
+    color: rgb(126, 125, 125);
+    padding: 5px 2px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box1 {
+    width: 50%;
+    padding: 10px 5px;
+    /* border: 1px solid red; */
+    
+}
+
+.box1 select{
+    font-family: 'Roboto', sans-serif;
+}
+
+.takeval,
+#unit {
+    width: 100%;
+    font-size: 22px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid rgb(126, 125, 125);
+}
+
+#unit {
+    font-size: 1.1rem;
+    margin-top: 4.5px;
+}
+
+.valuecontainer {
+    margin: 10px 0;
+    margin-top: 20px;
+}
+
+.value {
+    width: 100%;
+    height: 30px;
+    margin: 8px 0;
+    font-size: 1.4rem;
+    border-bottom: 1px solid rgb(126, 125, 125);
+}
+
+.button {
+    width: 100%;
+    height: auto;
+    font: 1.6rem;
+    color: white;
+    background-color: rgb(69, 112, 241);
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #296073;
+    cursor: pointer;
+    margin: 20px 0 0 0;
+    font-family: 'Roboto', sans-serif;
+    transition: border-width 0.2s linear;
+}
+
+.button:hover{
+    border-width: 7px;
+}
+
+
+.emoji {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    transition: 1ms ease-in;
+}
+
+.emoji i {
+    color: #4E8397;
+    font-size: 3rem;
+}
